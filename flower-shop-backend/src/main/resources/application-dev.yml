@@ -16,7 +16,7 @@ spring:
       stat-view-servlet:
         enabled: ${DRUID_CONSOLE_ENABLED:false}
         login-username: ${DRUID_CONSOLE_USERNAME:admin}
-        login-password: ${DRUID_CONSOLE_PASSWORD:change-me}
+        login-password: ${DRUID_MONITOR_PASSWORD}
       web-stat-filter:
         enabled: true
       filter:
