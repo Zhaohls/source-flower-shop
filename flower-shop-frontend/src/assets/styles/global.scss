@@ -1,0 +1,102 @@
+/* CSS Reset & Variables */
+:root {
+  --primary-color: #E8567F;
+  --secondary-color: #FF8BA7;
+  --bg-color: #FAEEE7;
+  --text-color: #333333;
+  --border-color: #dddddd;
+  --panel-color: #ffffff;
+  --panel-text-color: #2f3443;
+  --panel-muted-color: #7d8796;
+  --panel-border-color: #d7ddea;
+}
+
+html.dark {
+  --primary-color: #E8567F;
+  --secondary-color: #FF8BA7;
+  --bg-color: #1E1E2D;
+  --text-color: #FAEEE7;
+  --border-color: #333333;
+  --panel-color: #262a36;
+  --panel-text-color: #f3f5f8;
+  --panel-muted-color: #b0b7c4;
+  --panel-border-color: #4b5263;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.filter-form .el-select {
+  width: 168px;
+}
+
+.el-select__wrapper {
+  min-height: 42px;
+  background-color: var(--panel-color);
+  box-shadow: 0 0 0 1px var(--panel-border-color) inset !important;
+  transition: box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.el-select__wrapper:hover {
+  box-shadow: 0 0 0 1px #b8c2d6 inset !important;
+}
+
+.el-select__wrapper.is-focused {
+  box-shadow:
+    0 0 0 1px var(--primary-color) inset,
+    0 0 0 3px rgba(232, 86, 127, 0.14) !important;
+}
+
+.el-select__selected-item {
+  color: var(--panel-text-color) !important;
+}
+
+.el-select__placeholder {
+  color: var(--panel-muted-color) !important;
+}
+
+.el-select__caret,
+.el-select__icon {
+  color: var(--panel-text-color) !important;
+}
+
+.el-select-dropdown,
+.el-popper.is-light .el-popper__arrow::before {
+  border-color: var(--panel-border-color) !important;
+}
+
+.el-select-dropdown__item {
+  color: var(--panel-text-color) !important;
+}
+
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+  background-color: rgba(232, 86, 127, 0.08) !important;
+}
+
+.el-select-dropdown__item.selected {
+  color: var(--primary-color) !important;
+  font-weight: 600;
+}

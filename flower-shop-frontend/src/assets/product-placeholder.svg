@@ -1,0 +1,18 @@
+<svg width="320" height="240" viewBox="0 0 320 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="240" rx="24" fill="#F9E7EA"/>
+  <rect x="24" y="24" width="272" height="192" rx="20" fill="url(#paint0_linear_1_1)"/>
+  <circle cx="104" cy="112" r="36" fill="#FFE3EA"/>
+  <circle cx="160" cy="88" r="40" fill="#FFD1DC"/>
+  <circle cx="214" cy="116" r="34" fill="#FFC2D1"/>
+  <path d="M160 122C160 156 148 182 124 206" stroke="#6F8F62" stroke-width="8" stroke-linecap="round"/>
+  <path d="M162 122C164 156 178 182 198 206" stroke="#5C7A51" stroke-width="8" stroke-linecap="round"/>
+  <path d="M150 168C138 156 122 152 108 156C114 170 126 180 144 184" fill="#92B47B"/>
+  <path d="M174 166C186 154 202 150 216 154C210 168 198 178 180 182" fill="#7FA46A"/>
+  <text x="160" y="208" text-anchor="middle" fill="#A94D67" font-family="Georgia, serif" font-size="20">Bloomy Shop</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_1" x1="44" y1="40" x2="278" y2="208" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7F9"/>
+      <stop offset="1" stop-color="#F8D9E2"/>
+    </linearGradient>
+  </defs>
+</svg>
